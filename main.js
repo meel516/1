@@ -41,7 +41,13 @@ const todos = [
  } 
  
  salee()
- todos.map(salee)    
+ todos.map(salee)  
+ let fity='babyc'
+ console.log(`${fity}`)
+console.log (typeof saleem)
+if (typeof saleem=='string')
+{console.log(true)}
+
  
     
     
