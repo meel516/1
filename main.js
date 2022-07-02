@@ -47,10 +47,22 @@ const todos = [
 console.log (typeof saleem)
 if (typeof saleem=='string')
 {console.log(true)}
-
- 
-    
-    
-
+const tys={ret:234,tryu:522,lex:'guy'}
+console.log(tys.ret)
+function sbaji(anj){
+   der=anj
+   fr=der 
+  return der
+}
+console.log(sbaji(2))
+console.log(fr)
+ function gytr(g,h,i)
+{
+  this.game=g
+  this.pubg=h
+  this.code=i
+}    
+ const pro = new gytr('bgmi','yes','hack')
+console.log(pro)
   
   
