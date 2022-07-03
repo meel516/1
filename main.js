@@ -108,4 +108,32 @@ function dummy(cat)
 { boat =cat}
 dummy (57) 
 console. log(boat) */
+let friendsAvailable = true;
+
+function makePlans(name) {
+  // INSERT CODE HERE
+
+  return callFriend(friendsAvailable,name)
+}
+
+function callFriend(bool, name) {
+  // INSERT CODE HERE
+
+   
+  if (bool===true) {
+    return('Plans made with ' +name+' this weekend')
+    
+  
+  }
+  else
+  {
+    return ('Everyone is busy this weekend')
+  }
+}
+ 
+
+console.log(makePlans("Mary"))
+friendsAvailable = false;
+console.log(makePlans("James")) //should return: "Everyone is busy this weekend."
+
   
