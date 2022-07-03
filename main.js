@@ -61,8 +61,51 @@ console.log(fr)
   this.game=g
   this.pubg=h
   this.code=i
+  this.similargame=this.pubg
+  
 }    
  const pro = new gytr('bgmi','yes','hack')
 console.log(pro)
-  
+
+let calls = "";
+
+function jerry(calls) { 
+  george() 
+
+
+
+      function george(str) {
+        elaine() 
+
+
+
+    function elaine(str) {
+      kramer() 
+
+
+
+    function kramer(str) {
+       console. log('kramer') 
+            calls=calls+'Jerry';
+}
+        console.log('elaine') 
+       calls=calls+'Kramer' ;
+}
+      console. log('george') 
+      calls=calls+'George' ;
+ }      
+     console. log('jerry')
+     calls=calls+'Elaine' ;
+    return calls;
+}
+
+
+// Uncomment these to check your work!
+calls = jerry(calls);
+ console.log(calls); // should log: 'JerryKramerGeorgeElaine'
+/*let boat=56
+function dummy(cat) 
+{ boat =cat}
+dummy (57) 
+console. log(boat) */
   
