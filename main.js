@@ -135,5 +135,10 @@ function callFriend(bool, name) {
 console.log(makePlans("Mary"))
 friendsAvailable = false;
 console.log(makePlans("James")) //should return: "Everyone is busy this weekend."
+function droids(arr) {
+  let result = '';
+  // ADD CODE HERE
+  return result;
+}
 
   
