@@ -140,5 +140,10 @@ function droids(arr) {
   // ADD CODE HERE
   return result;
 }
+function droids(arr) {
+  let result = '';
+  // ADD CODE HERE
+  return result;
+}
 
   
